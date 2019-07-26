@@ -4,6 +4,14 @@ Facebook pages of 10 Thai fashion and cosmetics retail sellers. Posts of a diffe
 
 <br>
 
+### Data Analysis - Pivotable
+
+- We have observed that Customer interaction is increasing year on year from 2012 to 2018 with around 27.66% compounding. However, we data also observed steep fall in 2014. 
+- Based on the dataset interaction based on ‘photo’ status is the highest, compare to link, statues and videos. 
+- Based on the months we observed that May and December have maximum interaction with customers. 
+- Based on the day statistics we observed that June gets high customer interaction starting in the month and month May which has one of the highest interactions get constant customers interactions in end of the month, which indicated best days in a middle of the year is after 20th May and before 13th June. However, Days in December month are consistent on customer interaction. 
+
+
 ### Lernings
 
 - Sepreated date and Time with the use of library(lubridate) and mdy_hm() function.
