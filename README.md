@@ -18,6 +18,7 @@ Facebook pages of 10 Thai fashion and cosmetics retail sellers. Posts of a diffe
 - Addition to date - seperated day, month and year with the use of library(tidyr) and seperate() function. 
 
 - In clustering, used Hopkins Statistics to check clusters tendency between 0 to 1. (Near to 0 is good.)
+- Taking too much time to perform clusters due to more than 7000 observation points. [Need solution]
 
 <br>
 
