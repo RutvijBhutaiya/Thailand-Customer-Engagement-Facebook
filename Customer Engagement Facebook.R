@@ -57,25 +57,31 @@ library(rpivotTable)
 
 rpivotTable(live_fb)
 
+## CAN USE BINs FOR status_time - MOrning, Noon, Evening, Night
+# Value      Bin       
+#0-30   ->  Low       
+#31-70  ->  Mid       
+#71-100 ->  High
+
 # num_reaction is sum of - num_likes, num_loves, num_wows, num_hahas, num_sads and num_angrys
 
 
 
 live_fb$status_time = as.numeric(live_fb$status_time)
 
-live_fb = live_fb[,-1]     ## Remove Factor status_type
+live_fb = live_fb[,-c(1,6)]     ## Remove Factor status_type & num_reaction
 
 
 ## Clustering Tendency - Hopkins Statistics : 0 to 1
 
 library(factoextra)
 
-print(get_clust_tendency(live_fb, graph = FALSE, n = 100, seed = 123))  
+print(get_clust_tendency(live_fb, graph = FALSE, n = 100, seed = 1234))  
 
 # Here 'n' is random pickup of dataset for hopkins Stats - to check cluster tendency
 
 # $hopkins_stat
-# [1] 0.009915866
+# [1] 0.01066148
 
 # Near to zero indicated presence of valid clusters 
 
@@ -84,8 +90,9 @@ print(get_clust_tendency(live_fb, graph = FALSE, n = 100, seed = 123))
 
 library(NbClust)
 
+clsuter = NbClust(live_fb, distance = 'euclidean', method = 'kmeans')
 
-
+kmeans.c = kmeans()
 
 
 
