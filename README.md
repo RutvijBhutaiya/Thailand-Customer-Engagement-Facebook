@@ -11,6 +11,13 @@ Facebook pages of 10 Thai fashion and cosmetics retail sellers. Posts of a diffe
 - Based on the months we observed that May and December have maximum interaction with customers. 
 - Based on the day statistics we observed that June gets high customer interaction starting in the month and month May which has one of the highest interactions get constant customers interactions in end of the month, which indicated best days in a middle of the year is after 20th May and before 13th June. However, Days in December month are consistent on customer interaction. 
 
+<br>
+
+## Cluster Results
+
+<p align="center"><img width=85% src=https://user-images.githubusercontent.com/44467789/62132759-45420200-b2fb-11e9-822e-a661154fbcef.png>
+  
+
 
 ### Lernings
 
