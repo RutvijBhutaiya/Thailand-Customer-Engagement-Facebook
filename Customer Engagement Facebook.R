@@ -53,6 +53,8 @@
 
 live_fb = read.csv('live_fb.csv')
 
+attach(live_fb)
+
 library(rpivotTable)
 
 rpivotTable(live_fb)
@@ -76,7 +78,7 @@ live_fb = live_fb[,-c(1,6)]     ## Remove Factor status_type & num_reaction
 
 library(factoextra)
 
-print(get_clust_tendency(live_fb, graph = FALSE, n = 100, seed = 1234))  
+print(get_clust_tendency(live_fb, graph = FALSE, n = 100, seed = 123))  
 
 # Here 'n' is random pickup of dataset for hopkins Stats - to check cluster tendency
 
@@ -90,20 +92,35 @@ print(get_clust_tendency(live_fb, graph = FALSE, n = 100, seed = 1234))
 
 library(NbClust)
 
-clsuter = NbClust(live_fb, distance = 'euclidean', method = 'kmeans')
+ind = sample(2, nrow(live_fb), replace = TRUE, prob = c(0.3,0.7))
 
-kmeans.c = kmeans()
+test1 = live_fb[ind == 1, ]
 
+cluster1 = NbClust(test1, distance = 'euclidean', method = 'kmeans')
 
+kmeans.c = kmeans(test1, centers = 2, nstart = 50)
 
+print(kmeans.c)
 
+## Plot Cluster
+
+library(factoextra)
+
+print(fviz_cluster(kmeans.c, data = test1))
 
 
 ## FINAL STEP
-## Cluster Performance Measure - with 'silhouette'
+## Cluster Performance Measure - with 'silhouette' between -1 to 1
 
+si = silhouette(kmeans.c$cluster, dist(test1, 'euclidean'))
 
+print(summary(si))
 
+# Cluster sizes and average silhouette widths:
+#   51      2107 
+# 0.4006616 0.8417667 
+
+## NOTE: Values might chnge due to sampling in var test1 
 
 
 
