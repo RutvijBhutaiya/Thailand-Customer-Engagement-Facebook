@@ -21,6 +21,15 @@ Facebook pages of 10 Thai fashion and cosmetics retail sellers. Posts of a diffe
   
 Based on the study, Facebook Engagement on Fashion by users in Thailand, we have observed that, cluster 1 size is 51 and cluster 2 size is 2107. 
 
+ - 1.	For cluster 1, maximum Engagement happened in middle of 2017 around June month. Similarly, for cluster 2, maximum Engagement happened in middle of 2016 around June month. This concludes May-June month is important for marketers to engage with consumers on FB. 
+ - 2.	For cluster 1 and 2 consumers the best time in a day to engage is between morning 8 o’clock and 10 o’clock. 
+ - 3.	Cluster 1, being significant small in size is significantly high in engagement than cluster 2. 
+ - 4.	Number of comments and number of shares from cluster 1 is 38.1 times and 19.6 times respectively higher than cluster 2, which is significantly higher to create a buzz. 
+ - 5.	Similarly, number of loves and number of WOWs engagement are 10 times higher in cluster 1 than cluster 2. 
+ 
+ However, as a marketer one should be able to see significate gap for cluster 2 engagement, where base is more than 40 times than cluster 1. However, the both the clusters are taken as sample from 7,050 observations. But, from marketers’ point of view target should be how to generate more engage cluster 2 consumers.  
+
+
 ### Lernings
 
 - Sepreated date and Time with the use of library(lubridate) and mdy_hm() function.
