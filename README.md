@@ -17,7 +17,9 @@ Facebook pages of 10 Thai fashion and cosmetics retail sellers. Posts of a diffe
 
 <p align="center"><img width=85% src=https://user-images.githubusercontent.com/44467789/62132759-45420200-b2fb-11e9-822e-a661154fbcef.png>
   
-
+  <br>
+  
+Based on the study, Facebook Engagement on Fashion by users in Thailand, we have observed that, cluster 1 size is 51 and cluster 2 size is 2107. 
 
 ### Lernings
 
