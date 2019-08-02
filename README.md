@@ -19,7 +19,7 @@ Facebook pages of 10 Thai fashion and cosmetics retail sellers. Posts of a diffe
 
 ## Cluster Results
 
-<p align="center"><img width=85% src=https://user-images.githubusercontent.com/44467789/62132759-45420200-b2fb-11e9-822e-a661154fbcef.png>
+<p align="center"><img width=87% src=https://user-images.githubusercontent.com/44467789/62132759-45420200-b2fb-11e9-822e-a661154fbcef.png>
   
   <br>
   
