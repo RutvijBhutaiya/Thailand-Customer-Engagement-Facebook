@@ -10,6 +10,23 @@ Facebook pages of 10 Thai fashion and cosmetics retail sellers. Posts of a diffe
 
 <br>
 
+### Objective
+
+Objective of the study is to identify cluster patterns from dataset to help Fashion and cosmetics retail to engage with consumers on Faceboon in the most efficient way. Hence make strategies to increase sales. 
+
+<br>
+
+### Approach
+
+- Collect data from [UCI Machine Learning Repostiory](https://archive.ics.uci.edu/ml/datasets/Facebook+Live+Sellers+in+Thailand#)
+- Clean the dataset [missing values, variables convert like Date & Time etc]
+- Run Exploratery Data Analysis (EDA) and complet data analysis based on pivottable. 
+- Apply Hopkins Statistics - to check the clusters tendency. 
+- Build model based on K-means clustering 
+- Apply silhouette index for cluster performance measurement. 
+
+<br>
+
 ### Data Analysis - Pivotable
 
 - We have observed that Customer interaction is increasing year on year from 2012 to 2018 with around 27.66% compounding. However, we data also observed steep fall in 2014. 
