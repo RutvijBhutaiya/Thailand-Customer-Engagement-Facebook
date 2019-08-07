@@ -12,7 +12,7 @@
 
 Facebook pages of 10 Thai fashion and cosmetics retail sellers. Posts of a different nature (video, photos, statuses, and links). Engagement metrics consist of comments, shares, and reactions.
 
-Objective of the study is to identify cluster patterns from dataset to help Fashion and cosmetics retail to engage with consumers on Facebook, in the most efficient way. 
+Objective of the study is to identify cluster patterns from dataset to help Fashion and cosmetics retail to engage with consumers on Facebook, in the most efficient ways. 
 
 <br>
 
@@ -53,13 +53,13 @@ Based on the study, Facebook Engagement on Fashion by users in Thailand, we have
  However, as a marketer one should be able to see significate gap for cluster 2 engagement, where base is more than 40 times than cluster 1. However, the both the clusters are taken as sample from 7,050 observations. But, from marketers’ point of view target should be how to generate more engage cluster 2 consumers.  
 
 
-### Lernings
+### Learnings
 
 - Sepreated date and Time with the use of library(lubridate) and mdy_hm() function.
 - Addition to date - seperated day, month and year with the use of library(tidyr) and seperate() function. 
 
 - In clustering, used Hopkins Statistics to check clusters tendency between 0 to 1. (Near to 0 is good.)
-- Taking too much time to perform clusters due to more than 7000 observation points. [Need solution]
+- Taking too much time to perform clusters due to more than 7000 observation points. [Need solution!]
 - Performed Silhouette Index to evaluate clusters - silhouette value varies between -1 to 1 (Near 1 is good.)
 
 <br>
