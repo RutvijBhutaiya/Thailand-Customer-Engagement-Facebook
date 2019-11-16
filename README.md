@@ -1,6 +1,9 @@
 # Thailand-Customer-Engagement-Facebook
 
 
+#### Facebook pages of 10 Thai fashion and cosmetics retail sellers. Posts of a different nature (video, photos, statuses, and links). Engagement metrics consist of comments, shares, and reactions.
+
+
 <br>
 <p align="center"><img width=70% src=https://user-images.githubusercontent.com/44467789/62348225-03db6d80-b51a-11e9-9a37-ce453281d0b5.png> 
 
